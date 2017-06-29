@@ -3103,6 +3103,9 @@
             align-items: center; }
     .test .test_wrap .test_item {
       width: 20%; }
+      @media only screen and (max-width: 767px) {
+        .test .test_wrap .test_item {
+          width: 50%; } }
 
 .questions {
   -webkit-box-pack: center;
