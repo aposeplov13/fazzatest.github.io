@@ -2564,9 +2564,6 @@
     @media only screen and (max-width: 767px) {
       .brandrepair .brandrepair_item {
         width: 33%; } }
-    @media only screen and (max-width: 320px) {
-      .brandrepair .brandrepair_item {
-        width: 50%; } }
     @media only screen and (max-width: 319px) {
       .brandrepair .brandrepair_item {
         width: 100%; } }
