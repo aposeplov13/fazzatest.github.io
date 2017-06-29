@@ -289,6 +289,23 @@
 
 .develop {
   background: #0C97CD; }
+  .develop .nav-pills {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
   .develop .active {
     background: #262E31; }
   .develop a {
@@ -3618,7 +3635,8 @@
         -ms-flex-align: center;
             align-items: center;
     background: #FFFFFF;
-    border-right: 2px solid #EBEFF1; }
+    border-right: 2px solid #EBEFF1;
+    min-height: 23rem; }
   .whathappen .brand_name-link {
     -webkit-align-self: flex-start;
         -ms-flex-item-align: start;

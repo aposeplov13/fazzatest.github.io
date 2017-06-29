@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	/*
 	if (window.matchMedia('(max-width: 1023px)').matches)
 		{
 			//alert("privet");
@@ -10,8 +9,9 @@ $(document).ready(function(){
 		}
 		else if (window.matchMedia('(max-width: 767px)').matches) {
 			$(".brandrepair_item").slice(12,).css("display", "none");
+			$(".menusecond").addClass("collapse");
 		}
-	*/
+
 	//slick slider pricelist
 	$(".price_slider-item").slick({
 		slidesToShow: 3,
