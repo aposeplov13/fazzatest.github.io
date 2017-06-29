@@ -2487,9 +2487,19 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .brandrepair .brandrepair_wrap {
     overflow: hidden;
     display: -webkit-box;
@@ -2498,7 +2508,20 @@
     display: flex;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+            flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .brandrepair .brandrepair_title {
     padding-bottom: 2.5rem;
     font-size: 44px;
@@ -2530,7 +2553,11 @@
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    width: 10%; }
+    @media only screen and (max-width: 767px) {
+      .brandrepair .brandrepair_item {
+        width: 50%; } }
     .brandrepair .brandrepair_item:hover {
       -webkit-transition-duration: slow;
               transition-duration: slow;
@@ -2539,6 +2566,8 @@
               transform: scale(1.02);
       -webkit-box-shadow: 3px 5px 10px 0px rgba(51, 50, 50, 0.59);
               box-shadow: 3px 5px 10px 0px rgba(51, 50, 50, 0.59); }
+    .brandrepair .brandrepair_item .brandrepair_img {
+      margin: 0 auto; }
   .brandrepair .btn {
     margin: 1rem auto;
     display: none; }
