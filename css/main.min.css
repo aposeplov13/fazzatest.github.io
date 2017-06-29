@@ -2527,7 +2527,7 @@
     font-size: 44px;
     font-family: "roboto", sans-serif;
     font-weight: 400;
-    color: red; }
+    color: #262E31; }
     .brandrepair .brandrepair_title s {
       color: #0C97CD; }
       .brandrepair .brandrepair_title s span {
@@ -2554,10 +2554,19 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 10%; }
+    width: 11%; }
+    @media only screen and (max-width: 1279px) {
+      .brandrepair .brandrepair_item {
+        width: 14%; } }
+    @media only screen and (max-width: 1023px) {
+      .brandrepair .brandrepair_item {
+        width: 20%; } }
     @media only screen and (max-width: 767px) {
       .brandrepair .brandrepair_item {
-        width: 50%; } }
+        width: 33%; } }
+    @media only screen and (max-width: 320px) {
+      .brandrepair .brandrepair_item {
+        width: 100%; } }
     .brandrepair .brandrepair_item:hover {
       -webkit-transition-duration: slow;
               transition-duration: slow;
