@@ -76,9 +76,6 @@ $(document).ready(function(){
 			}]
 		});
 	//advantage_slider END
-	//whathappen srollspy
-	$(".nano").nanoScroller();
-	//whathappen srollspy END
 
 
 });
