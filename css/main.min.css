@@ -3494,6 +3494,15 @@
           width: 90%; } }
 
 .whathappen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background: url("../img/background/whathappen-bg.svg");
   border-bottom: 2px solid #EBEFF1;
   padding-bottom: 3rem; }
@@ -3640,6 +3649,13 @@
     padding-bottom: 1rem;
     -webkit-border-radius: 2rem;
             border-radius: 2rem; }
+  .whathappen .brand_search-label {
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    color: #C8D1D4;
+    display: none;
+    padding: 1rem; }
   .whathappen .defect_search_input {
     font-size: 16px;
     font-family: "roboto", sans-serif;
@@ -3652,12 +3668,55 @@
     margin-left: 1rem;
     -webkit-border-radius: 2rem;
             border-radius: 2rem; }
+  .whathappen .defect_search-label {
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    color: #C8D1D4; }
   @media only screen and (max-width: 1023px) {
     .whathappen .troubleshooting_cause {
       display: none; } }
   @media only screen and (max-width: 767px) {
     .whathappen .troubleshooting_brands {
       display: none; } }
+  .whathappen .troubleshooting_brands .brand_search-results {
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
+    border: 1px solid #EBEFF1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+    max-height: 16rem;
+    overflow-y: scroll; }
+    .whathappen .troubleshooting_brands .brand_search-results .list-group-item {
+      padding: 0.5rem;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      font-size: 16px;
+      font-family: "roboto", sans-serif;
+      font-weight: 400;
+      color: #262E31; }
+      .whathappen .troubleshooting_brands .brand_search-results .list-group-item:hover {
+        background: #EBEFF1; }
+    .whathappen .troubleshooting_brands .brand_search-results .disabled {
+      padding-left: 1rem;
+      font-size: 0.875rem;
+      color: #C8D1D4; }
   .whathappen .troubleshooting_price {
     background: url("../img/background/troubleshooting_price-bg-1920-1.png");
     background-size: 100% 100%; }
