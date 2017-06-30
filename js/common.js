@@ -53,7 +53,7 @@ $(document).ready(function(){
 			hash     : false,
 		});
 		$(".advantage_slider").slick({
-				slidesToShow   : 5,
+				slidesToShow   : 4,
 				slidesToScroll : 3,
 				infinite   : true,
 				dots       : false,
