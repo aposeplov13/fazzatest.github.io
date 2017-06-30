@@ -2711,6 +2711,12 @@
   @media only screen and (max-width: 767px) {
     .map .map_body {
       width: 90%; } }
+  .map .map_body .overlay {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    top: 0; }
   .map .map_body iframe {
     left: 0;
     top: 0;
@@ -3651,7 +3657,7 @@
     .whathappen .troubleshooting_cause {
       display: none; } }
   @media only screen and (max-width: 767px) {
-    .whathappen .troubleshooting_brands {
+    .whathappen .troubleshooting_defects {
       display: none; } }
   .whathappen .troubleshooting_brands .brand_search-results {
     -webkit-border-radius: 6px;
